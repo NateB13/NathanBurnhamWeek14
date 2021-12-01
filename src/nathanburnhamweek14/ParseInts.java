@@ -29,7 +29,7 @@ sum += val;
 } catch(NumberFormatException e){
 }
  }
-System.out.println("The sum of the integers on this line is " +
+System.err.println("The sum of the integers on this line is " +
 sum);
 }
 }
