@@ -31,7 +31,7 @@ try{
  counts[word.charAt(i)-'A']++;
 }catch(ArrayIndexOutOfBoundsException e)
 {
-    System.out.print("\"" + word.charAt(i) + "\"" + " Is not a letter.");
+    System.err.print("\"" + word.charAt(i) + "\"" + " Is not a letter.");
 }
 //print frequencies
 System.out.println();
